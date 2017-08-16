@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "redmine_outlook", "redmine_outlook\redmine_outlook.csproj", "{33B21CBC-C5CE-437B-8B59-C87E1E5E8661}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedMineIssueCreator", "redmine_outlook\RedMineIssueCreator.csproj", "{33B21CBC-C5CE-437B-8B59-C87E1E5E8661}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API_Demo", "API_Demo\API_Demo.csproj", "{7642FD09-2675-47C7-9C73-1991B0555F14}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{33B21CBC-C5CE-437B-8B59-C87E1E5E8661}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33B21CBC-C5CE-437B-8B59-C87E1E5E8661}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33B21CBC-C5CE-437B-8B59-C87E1E5E8661}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7642FD09-2675-47C7-9C73-1991B0555F14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7642FD09-2675-47C7-9C73-1991B0555F14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7642FD09-2675-47C7-9C73-1991B0555F14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7642FD09-2675-47C7-9C73-1991B0555F14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

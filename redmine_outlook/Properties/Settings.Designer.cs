@@ -22,5 +22,29 @@ namespace redmine_outlook.Properties {
                 return defaultInstance;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string API_KEY {
+            get {
+                return ((string)(this["API_KEY"]));
+            }
+            set {
+                this["API_KEY"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string HOST {
+            get {
+                return ((string)(this["HOST"]));
+            }
+            set {
+                this["HOST"] = value;
+            }
+        }
     }
 }
