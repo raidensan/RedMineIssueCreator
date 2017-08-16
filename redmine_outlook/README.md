@@ -9,7 +9,7 @@ All rights reserved, 2017 Copyright raidensan(fdeliri@gmail.com)
 
 ### Quick start
 Close any instance of Outlook running.
- Run [RedMineIssueCreatorSetup](../Setup/RedMineIssueCreatorSetup.exe), follow the instructions and finish setup.
+ Run [RedMineIssueCreatorSetup](/Setup/RedMineIssueCreatorSetup.exe), follow the instructions and finish setup.
  Run `Outlook`, Outlook will present you with a confirmation dialog.
  Select `Install`.
 
