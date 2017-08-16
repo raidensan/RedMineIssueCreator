@@ -20,6 +20,7 @@ namespace redmine_outlook.Helper
             return Environment.NewLine + source.Replace(Environment.NewLine,  Environment.NewLine + "> ");
         }
 
+
         private static string RemoveLinks(string source)
         {
             return Regex.Replace(source, @"((http|https):\/\/[\w\-_]+(\.[\w\-_]+)+([\w\-\.,@?^=%&amp;:/~\+#]*[\w\-\@?^=%&amp;/~\+#])?)", "");
